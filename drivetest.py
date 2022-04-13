@@ -16,5 +16,5 @@ saVoiture= Voiture('Ford','noir')
 maVoiture.choisirConducteur('hassan')
 taVoiture.choisirConducteur('afid')
 saVoiture.choisirConducteur('ali')
-
+maVoiture.affich_info()
 
