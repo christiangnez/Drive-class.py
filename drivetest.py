@@ -6,8 +6,8 @@ class Voiture(object):
         self.vitesse= 0
     def choisirConducteur(self, nom):
         self.conducteur= nom
-    def affich_info(self, marque, couleur, conducteur, vitesse):
-        print(self, marque, couleur, conducteur, vitesse)
+    def affich_info(self):
+        print(self.marque, self.couleur, self.conducteur, self.vitesse)
 
 maVoiture= Voiture('Ford','rouge')
 taVoiture= Voiture('toyota','bleue')
